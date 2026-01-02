@@ -1,6 +1,6 @@
 { pkgs, ... }:
 let
-    hidden = import ../hidden.nix;
+    hidden = import ./hidden.nix;
 in
 {
     services.openssh.enable = true;
